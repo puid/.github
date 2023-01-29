@@ -3,7 +3,8 @@
 
 **PUID** aims to be a general, flexible mechanism for creating random string for use as random IDs. Library implementations also strive to be fast and efficient.
 
-For the purposes of **PUID**, random IDs are a bunch of random strings generated for use as IDs within a specified context. (See [Understanding Random IDs](https://github.com/puid/assets/blob/dev/docs/RandomId.md) for detailed overview.) As such, random ID generation can be viewed as a _transformation_ of some entropy source into a string _representation_ of captured entropy. A general purpose library for such transformation should provide flexible control over the **entropy source**, the **characters** used, and the resulting **captured randomness**.
+For the purposes of **PUID**, random IDs are a bunch of random strings generated for use as IDs within a specified context. (See [Understanding Random IDs](https://github.com/puid/.github/blob/8ba9028f106cec9b3c2ebf0fd456d26a810df075/assets/docs/RandomId.md) for detailed overview.) As such, random ID generation can be viewed as a _transformation_ of some entropy source into a string _representation_ of captured entropy. A general purpose library for such transformation should provide flexible control over the **entropy source**, the **characters** used, and the resulting **captured randomness**.
+
 
 ### ID Generation
 

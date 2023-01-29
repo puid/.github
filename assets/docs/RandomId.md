@@ -10,7 +10,7 @@ But developers _should_ think about the random strings they use. The generation 
 
 #### What is a random string?
 
-Although this may seem to have an obvious answer, there is actually a key, often overlooked subtlety: a random string ***is not random*** in and of itself. To understand this, we need to understand [entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory) as it relates to computers.
+Although this may seem to have an obvious answer, there is actually a key, often overlooked subtlety: a random string ***is not random*** in and of itself. To understand this, we need to understand [entropy](https://en.wikipedia.org/wiki/Entropy_\(information_theory\)) as it relates to computers.
 
 A somewhat simplistic statement for entropy from information theory is: _“entropy is a measure of uncertainty in the possible outcomes of an event”_. Given the base 2 system inherent in computers, this uncertainty naturally maps to a unit of bits (known as Shannon entropy). So we see statements like _“this random string has 128 bits of entropy”_. But here is the subtlety:
 
@@ -82,9 +82,6 @@ Fortunately, there is a mathematical correlation between entropy and the probabi
 At this point we can note that rather than say _“these IDs have N bits of entropy”_, we actually want to express ID randomness as _“generating a total T of these IDs has a risk R of a repeat”_.
 
 ### Efficiency
-
-![](https://github.com/puid/assets/blob/dev/pics/Loom.png?raw=true)
-
 
 The efficiency of generating random IDs has no bearing on the statistical characteristics of the IDs themselves. But who doesn’t care about efficiency? Unfortunately, most random string generation, it seems.
 
