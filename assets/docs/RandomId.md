@@ -1,6 +1,6 @@
 # Understanding Random IDs
 
-![RandomID](https://github.com/puid/assets/blob/dev/pics/RandomID.png?raw=true)
+![RandomID](https://github.com/puid/.github/blob/b514bcbbf39b40c0b5c484b81daff2f59183e897/assets/pics/RandomID.png?raw=true)
 
 Developers frequently need random strings in applications ranging from long-term (e.g., data store keys) to short-term (e.g. DOM IDs on a web page). These IDs are, of course, of secondary concern. No one wants to think about them much, they just want to be easy to generate.
 
@@ -119,7 +119,7 @@ The total entropy of a string is the product of the entropy per character times 
 
 ### Overkill and Under Specify
 
-![](https://github.com/puid/assets/blob/dev/pics/Overkill.png?raw=true)
+![](https://github.com/puid/.github/blob/b514bcbbf39b40c0b5c484b81daff2f59183e897/assets/pics/Overkill.png?raw=true)
 
 #### Overkill
 
@@ -191,7 +191,7 @@ And there’s the Birthday Paradox. Even though there are over **2** billion pos
 
 The simple fact is, you don’t care how long a random string is, you care about the risk of repeat if you were to generate some total number of those strings for IDs. Look at the previous **PUID** code snippets. For a total of **1000** IDs, the risk of repeat is explicitly stated as **1/10¹⁵**. The total and risk are clearly specified. The fact the IDs are **12** characters long is, and should be, a by-product, not a specification.
 
-![tl;dr](https://github.com/puid/assets/blob/dev/pics/tldr.png?raw=true)
+![tl;dr](https://github.com/puid/.github/blob/b514bcbbf39b40c0b5c484b81daff2f59183e897/assets/pics/tldr.png?raw=true)
 
 ### Random string
 
